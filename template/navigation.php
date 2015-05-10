@@ -1,6 +1,6 @@
 <!--Start main navigation-->
 <nav class = "navbar navbar-default" role="navigation">
-    <button id="btn-debug" class="btn btn-default">Debug</button>
+    <button id="btn-debug" class="btn btn-default"><i class="fa fa-bug"></i></button>
     <div class = "container">
         <ul class="nav navbar-nav">
 

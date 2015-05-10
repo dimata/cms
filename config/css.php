@@ -31,4 +31,17 @@ background-color: #f5f5f5;
         position: absolute;
     }
 
+    #console-debug {
+        position: absolute;
+        top:50px;
+        left:0px;
+        width: 30%;
+        height: 700px;
+    }
+    #console-debug pre {
+        height:600px;
+        overflow-y: scroll;
+
+    }
+
     </style>
