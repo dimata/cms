@@ -27,5 +27,8 @@ width: 100%;
 height: 60px;
 background-color: #f5f5f5;
 }
+    #btn-debug{
+        position: absolute;
+    }
 
     </style>
