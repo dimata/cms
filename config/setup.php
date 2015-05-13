@@ -9,6 +9,8 @@ DEFINE('D_TEMPLATE','template');//path to files
 //functions:
 include('functions/data.php');
 include('functions/template.php');
+#Site Setup
+$debug = data_setting_value($dbc, 'debug-status');
 $site_title = 'CMS 1.0';
 $page_title ='Home Page';
 if(isset($_GET['page'])){

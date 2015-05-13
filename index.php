@@ -24,12 +24,8 @@
         </div><!-- END wrap-->
 
     <?php include(D_TEMPLATE.'/footer.php');?>
-    <div id="console-debug">
-        <pre>
-              <?php print_r($page);?>
-        </pre>
 
-    </div>
+    <?php if($debug == 1){include('widgets/debug.php'); } ?>
 
     </body>
 
